@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+img{
+    width: 300px;
+}
+h1{
+    font-family: 'Indie Flower', cursive;
+font-family: 'Permanent Marker', cursive;
+}
+button{
+    font-size: large ;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    color: blue;
+    background-color: chartreuse;
+    padding: 20px;
+    box-shadow: 10px 10px 8px gray;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+button:hover{
+    background-color: crimson;
+    color: gold;
+}
